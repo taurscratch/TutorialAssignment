@@ -3,8 +3,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Text, View } from 'react-native';
-import PhoneDetail from './PhoneDetail';
-import Phones from './Phones';
+import PhoneDetail from './Screens/PhoneDetail';
+import Phones from './Screens/Phones';
 
 const Stack = createStackNavigator();
 
